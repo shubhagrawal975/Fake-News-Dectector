@@ -37,10 +37,6 @@ The dataset contains the following columns:
 
 - title
 - text ✅ (used as input)
-- date
-- source
-- author
-- category
 - label ✅ (target: real / fake)
 
 ---
@@ -62,11 +58,17 @@ The dataset contains the following columns:
 
 ---
 
-## 🚧 Limitations
-1. Accuracy depends on dataset quality
-2. Cannot fully understand context or sarcasm
-3. Limited to binary classification
+## ⚠️ Model Limitations
 
+While the model achieves high accuracy on structured datasets, it struggles with real-world inputs.
+
+This highlights a key challenge in AI systems:
+
+- Models rely on learned patterns, not factual understanding
+- Performance drops when input distribution changes
+- High accuracy does not guarantee real-world reliability
+
+This aligns with the broader challenge of building trustworthy AI systems.
 ---
 
 ## 🔮 Future Improvements
